@@ -1,0 +1,30 @@
+body {
+    background-color: inherit;
+}
+
+/*
+    quotes
+*/
+.quoted::before, .quoted::after {
+    font-size: 1.1em;
+    color: #781111;
+    font-family: fantasy;
+}
+
+.quoted::before {
+    content: '\201C';
+    /* content: '\301D'; */
+}
+
+.quoted::after {
+    content: '\201D';
+    /* content: '\301E'; */
+}
+
+.quoted > .quoted::before {
+    content: '\2018';
+}
+
+.quoted > .quoted::after {
+    content: '\2019';
+}
