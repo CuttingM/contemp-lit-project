@@ -1,6 +1,1 @@
-main {
-    display: grid;
-    grid:
-        "header header header" 50px
-        "content content image" 300px;
-}
+
