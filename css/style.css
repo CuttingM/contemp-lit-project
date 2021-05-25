@@ -1,5 +1,18 @@
 body {
-    background-color: inherit;
+    background-color: #004507;
+    color: #ddd;
+    font-style: oblique;
+    font-size: 1.2em;
+}
+
+.p5Canvas {
+    border-radius: 10px;
+}
+
+.bounded-box {
+    display: block;
+    width: 500px;
+    margin: 20px auto;
 }
 
 /*
@@ -7,7 +20,7 @@ body {
 */
 .quoted::before, .quoted::after {
     font-size: 1.1em;
-    color: #781111;
+    color: #c4bf18;
     font-family: fantasy;
 }
 
